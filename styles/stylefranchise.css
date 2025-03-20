@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Playpen+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+    --angkor: 'Angkor', serif;
+    --playpen: 'Playpen Sans', cursive;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    /* background: url('img/milktea4.png'); */
+    background: url('img/melkti\ bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: 85%;
+}
+#title{
+    font-family: var(--angkor);
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.25rem;
+}
+.cont2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.img-cont, form{
+    width: 50%;
+    height: 100%;
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-cont img{
+    width: 90%;
+    height: auto;
+    border-radius: 1.20rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--playpen);
+}
+form input, textarea{
+    width: 20rem;
+    height: 1.9rem;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: .7rem;
+    padding-inline-start: .35rem;
+    font-family: var(--playpen);
+    font-weight: bold;
+    font-size: .75rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+    margin: .40rem;
+}
+::placeholder{
+    font-family: var(--playpen);
+}
+form span{
+    color: #ff0000;
+}
+form p{
+    margin: 0 0 1.50rem;
+}
+textarea{
+    height: 5rem;
+}
+button[type="submit"]{
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-weight: bold;
+    font-family: var(--playpen);
+    cursor: pointer;
+    color: white;
+    background-color: #ff0000;
+    margin: 1.25rem;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+    --angkor: 'Angkor';
+    --playpen: 'Playpen Sans';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url('img/melkti\ bg3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont1{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+#img-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.35rem 0 4rem;
+}
+#menu{
+    width: 70%;
+    height: auto;
+}
+#title{
+    font-family: var(--angkor);
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.25rem;
+}

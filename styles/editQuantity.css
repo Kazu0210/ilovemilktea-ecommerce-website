@@ -1,0 +1,52 @@
+@import url(font/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Milktea\ Wallpaper\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form #header{
+    font-family: 'Playpen sans';
+}
+form #header span{
+    color: #6e3d0f;
+}
+form #options-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+}
+form #options-container select{
+    padding: .2rem;
+    font-family: 'Playpen sans';
+    margin: 0px 1rem;
+    cursor: pointer;
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+    outline: none;
+}
+form #options-container button{
+    padding: .2rem;
+    font-family: 'Playpen sans';
+    margin: 0px 1rem;
+    cursor: pointer;
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+    background-color: #ff0000;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+}

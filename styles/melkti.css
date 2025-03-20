@@ -1,0 +1,206 @@
+/* milktea animations */
+
+.bg-cont{
+    width: 100%;
+    height: 100%;
+}
+/* milktea 1 */
+.bg-cont .img-cont:nth-child(1) img{
+    width: 120px;
+    height: auto;
+    transition: .3s;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+    animation-delay: .5s;
+}
+.bg-cont div:nth-child(1){
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-cont div:nth-child(1){ 
+    transform: rotate(350deg);
+}
+/* milktea 2 */
+.bg-cont .img-cont:nth-child(2) img{
+    width: 72px;
+    height: auto;
+    transition: .3s;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+    animation-delay: .3s;
+}
+.bg-cont div:nth-child(2){
+    top: 10%;
+    left: -2%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-cont div:nth-child(2){ 
+    transform: rotate(12deg);
+}
+/* milktea 3 */
+.bg-cont .img-cont:nth-child(3) img{
+    width: 83px;
+    height: auto;
+    transition: .3s;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+    animation-delay: .7s;
+}
+.bg-cont div:nth-child(3){
+    top: 49.06px;
+    left: 411.71px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-cont div:nth-child(3){ 
+    transform: rotate(-5deg);
+    
+}
+/* milktea 4 */
+.bg-cont .img-cont:nth-child(4) img{
+    width: 3.7em;
+    height: auto;
+    transition: .3s;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+    animation-delay: .1s;
+}
+.bg-cont div:nth-child(4){
+    top: 17%;
+    left: 61%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-cont div:nth-child(4){ 
+    transform: rotate(15deg);
+    
+}
+/* milktea 5 */
+.bg-cont .img-cont:nth-child(5) img{
+    width: 10em;
+    height: auto;
+    transition: .3s;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+    animation-delay: .9s;
+}
+.bg-cont div:nth-child(5){
+    top: 20%;
+    left:80%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-cont div:nth-child(5){ 
+    transform: rotate(0);
+    
+}
+/* milktea 6 */
+.bg-cont .img-cont:nth-child(6) img{
+    width: 5.1875rem;
+    height: 8.625rem;
+    transition: .3s;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+    animation-delay: .4s;
+}
+.bg-cont div:nth-child(6){
+    top: 65%;
+    left: 40%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-cont div:nth-child(6){ 
+    transform: rotate(22.503deg);
+}
+/* milktea 7 */
+.bg-cont .img-cont:nth-child(7) img{
+    width: 4.54175rem;
+    height: 7.22344rem;
+    flex-shrink: 0;
+    transition: .3s;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+    animation-delay: .2s;
+}
+.bg-cont div:nth-child(7){
+    top: 65%;
+    left: 65%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-cont div:nth-child(7){ 
+    transform: rotate(-8.938deg);
+}
+
+
+
+
+/* shadow */
+.img-cont span{
+    width: 100%;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    filter: blur(1px);
+    z-index: -2;
+    animation: shrink 3s ease-in-out infinite;
+}
+@keyframes shrink{
+    0%{
+        width: 70%;
+        opacity: .5;
+    }
+    50%{
+        width: 90%;
+        opacity: 1;
+    }
+    100%{
+        width: 70%;
+        opacity: .5;
+    }
+}
+@keyframes float{
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(10px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

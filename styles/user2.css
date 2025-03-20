@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(12, 12, 12)(248, 0.3); */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container-side{
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.container-side h1{
+    text-align: center;
+    margin-top:5vh;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+ul{
+    margin: 10px 10px 10px;
+}
+.container-side ul{
+    border-bottom: 1px solid black;
+}
+li a:hover{
+    color: crimson;
+}
+.container-box{
+    width: 80%;
+    height: 100%;
+}
+.container-box h2{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: 10px;
+}
+.content {
+    text-align: left;
+    margin: 10vh;
+    width:70%;
+    height: 50%;
+    padding: 5vh;
+}
+
+/* Adjust styling for specific elements */
+.content label {
+    display: inline-block;
+    width: 150px; /* Adjust the width based on your layout */
+    text-align: left; /* Align the label text to the left within the label container */
+    margin-bottom: 5px; /* Add some spacing between labels */
+}
+.content textarea {
+    width: 200px;
+    margin-bottom: 10px;
+    resize: none; /* Disable textarea resizing */
+}
+
+.content textarea,
+.content input[type="text"],
+.content input[type="email"],
+.content input[type="date"] {
+    width: 200px; /* Adjust the width based on your layout */
+    height: 5vh;
+    margin-bottom: 10px; /* Add some spacing between input elements */
+}
+#address{
+    width: 300px;
+}
+#button{
+    background-color:rgb(175, 134, 76);
+    cursor: pointer;
+    font-size: 1em;
+    padding:9px;
+    width: 10vh;
+    border-radius: 10px;
+    border: 1px solid rgb(54, 52, 52);
+    margin-top: 5vh;
+}
+    .container-btn {
+    position: relative;
+    height: 50vh; /* Adjust the height of the container as needed */
+  }
+  
+  .btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Additional styling if needed */
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10vh;
+  }
+
+  .dropbtn {
+    padding: 11px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    height: 6vh;
+    width: 16vh;
+    border-radius: 10px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 160px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show the dropdown when the button is clicked */
+  .dropdown.active .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 160px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+.tab {
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.tab:hover{
+    color: #2980b9;
+}
+
+.tab.active {
+    border-bottom: 2px solid #007BFF;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+.content button{
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: #9D4E15;
+    width: 15vh;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*TABLE*/
+.content-table{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.481);
+    padding: 10px;
+    text-align: left;
+}

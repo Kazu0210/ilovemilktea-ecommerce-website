@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-drag: none;
+    user-select: none;
+    --playpen: 'Playpen sans';
+    font-family: var(--playpen);
+    outline: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(img/Milktea\ Wallpaper\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-detail{
+    background: #fff;
+    border: 1px solid #bbbbbb;
+    width: 70%;
+    height: 70%;
+    padding: 1rem;
+}
+
+#header-container{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#header{
+    font-size: 2rem;
+    color: #9D4E15;
+}
+
+.user-inpt, form{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+#container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0;
+}
+
+label{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.left, .right{
+    position: relative;
+    width: 50%;
+    height: 45px;
+    margin: .2rem;
+}
+input{
+    position: absolute;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    border: 1px solid #bbbbbb;
+    background-color: #fff;
+    border-radius: .2rem;
+    padding-inline-start: 5px;
+}
+
+button[name="update"]{
+    width: 110px;
+    height: 45px;
+    background: #9D4E15;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
